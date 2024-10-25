@@ -1,6 +1,12 @@
+import navbar from "./components/navbar.vue";
 <template>
+    <div>
+        <Navbar />
+    </div>
   <div>
-    <h2>Hellorld Obscuritas</h2>
+    
+    <h2>Hellorld</h2>
+    
   </div>
 </template>
 
