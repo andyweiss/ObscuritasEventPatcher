@@ -8,7 +8,6 @@
 
 <script setup>
 import { ref } from "vue";
-import { PrimeIcons } from '@primevue/core/api';
 
 const menu = ref();
 const items = ref([
@@ -22,6 +21,10 @@ const items = ref([
             {
                 label: 'Export',
                 icon: 'pi pi-upload'
+            },
+            {
+                label: 'About',
+                icon: 'pi pi-info'
             }
         ]
     }

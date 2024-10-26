@@ -1,15 +1,10 @@
 import Aura from '@primevue/themes/aura';
-import MegaMenu from 'primevue/megamenu';
-
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: [
-    // CSS file in the project
-    //'@/assets/css/main.css',
-    // SCSS file in the project
-    '@/assets/styles.scss'
+    'primeicons/primeicons.css' // Import the PrimeIcons CSS globally
   ],
     modules: [
         '@primevue/nuxt-module'
@@ -22,6 +17,3 @@ export default defineNuxtConfig({
         }
     }
 })
-
-
-

@@ -1,11 +1,10 @@
 import navbar from "./components/navbar.vue";
+import switch from './components/switch.vue';
 <template>
-    <div>
-        <Navbar />
-    </div>
   <div>
-    
-    <h2>Hellorld</h2>
+    <Navbar />
+    <Switch />
+    <h2>Hellorld Obscuritas</h2>
     
   </div>
 </template>
