@@ -6,6 +6,7 @@ import switch from './components/switch.vue';
     <Switch />
     <h2>Hellorld Obscuritas</h2>
     
+
   </div>
 </template>
 
