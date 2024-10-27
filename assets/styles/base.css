@@ -1,14 +1,14 @@
 :root {
-    --p-primary-50: #ecfdf5;
-    --p-primary-100: #d1fae5;
-    --p-primary-200: #a7f3d0;
-    --p-primary-300: #6ee7b7;
-    --p-primary-400: #34d399;
-    --p-primary-500: #10b981;
-    --p-primary-600: #059669;
-    --p-primary-700: #047857;
-    --p-primary-800: #065f46;
-    --p-primary-900: #064e3b;
+    --p-primary-50: #ecf0fd;
+    --p-primary-100: #d1dafa;
+    --p-primary-200: #a9a7f3;
+    --p-primary-300: #6e82e7;
+    --p-primary-400: #3473d3;
+    --p-primary-500: #1018b9;
+    --p-primary-600: #053396;
+    --p-primary-700: #043078;
+    --p-primary-800: #060d5f;
+    --p-primary-900: #06064e;
     --p-primary-950: #022c22;
     --p-surface-0: #ffffff;
     --p-surface-50: #fafafa;
@@ -54,9 +54,9 @@
         --p-content-border-color: var(--p-surface-700);
         --p-content-hover-background: var(--p-surface-800);
         --p-content-hover-color: var(--p-surface-0);
-        --p-highlight-background: color-mix(in srgb, var(--p-primary-400), transparent 84%);
+        --p-highlight-background: color-mix(in srgb, var(--p-primary950), transparent 84%);
         --p-highlight-color: rgba(255, 255, 255, 0.87);
-        --p-highlight-focus-background: color-mix(in srgb, var(--p-primary-400), transparent 76%);
+        --p-highlight-focus-background: color-mix(in srgb, var(--p-primary-950), transparent 76%);
         --p-highlight-focus-color: rgba(255, 255, 255, 0.87);
         --p-text-color: var(--p-surface-0);
         --p-text-hover-color: var(--p-surface-0);

@@ -4,9 +4,7 @@ import switch from './components/switch.vue';
   <div>
     <Navbar />
     <Switch />
-    <h2>Hellorld Obscuritas</h2>
     
-
   </div>
 </template>
 
