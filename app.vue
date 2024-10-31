@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Switch />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
